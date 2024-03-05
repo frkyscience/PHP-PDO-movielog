@@ -19,5 +19,3 @@ try {
 } catch (PDOException $err) {
     echo "Database connection problem. " . $err->getMessage();
 }
-
-

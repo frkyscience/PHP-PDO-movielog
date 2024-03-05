@@ -70,6 +70,10 @@ $films_rows = $stmtFilms->fetchAll(PDO::FETCH_ASSOC);
                             <?php endforeach; ?>
                         </table>
                     </div>
+                    <div class="card-footer text-center">
+                        <a href="add_serie.php" class="btn btn-success">Add Series</a>
+                        <a href="add_film.php" class="btn btn-success">Add Movies</a>
+                    </div>
                 </div>
             </div>
         </div>
